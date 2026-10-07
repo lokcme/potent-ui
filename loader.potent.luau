@@ -2,7 +2,7 @@
 -- Sube potent-ui/src bundeado a tu host y cambia URL abajo.
 -- Build wax -> single file, host raw, luego:
 
-local URL = "https://raw.githubusercontent.com/TU_USER/potent-ui/main/potent.lua"
+local URL = "https://raw.githubusercontent.com/lokcme/potent-ui/main/potent.lua"
 
 local Potent = loadstring(request({ Url = URL, Method = "GET" }).Body)()
 
