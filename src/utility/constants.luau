@@ -33,10 +33,10 @@ constants.icons = {
     rayfield = 80387863064905, -- default show icon on the sign-in toast
 }
 
--- Accent used by the toggle switch + slider glow when active.
+-- Accent used by the toggle switch + slider glow when active. Potent fork: violeta.
 constants.accent = {
-    on = Color3.fromRGB(23, 153, 110),
-    onStroke = Color3.fromRGB(32, 201, 144),
+    on = Color3.fromRGB(124, 58, 237),
+    onStroke = Color3.fromRGB(167, 139, 250),
 }
 
 -- Stat card accents per direction (fill drives the card + glow, stroke is the brighter edge).

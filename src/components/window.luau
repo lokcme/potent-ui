@@ -234,7 +234,7 @@ function Window.new(properties)
         connections = {},
 
         icon = properties.icon or properties.Icon,
-        showName = properties.showName or properties.ShowName or "Rayfield",
+        showName = properties.showName or properties.ShowName or "Potent",
         showIcon = properties.showIcon or properties.ShowIcon or constants.icons.rayfield,
         -- collapse to a round badge rather than an icon-and-label pill
         showIconOnly = properties.showIconOnly or properties.ShowIconOnly or false,
@@ -247,7 +247,7 @@ function Window.new(properties)
         tabSections = {},
         tags = {},
         selectedTab = nil,
-        theme = resolveTheme(properties.theme or properties.Theme),
+        theme = resolveTheme(properties.theme or properties.Theme or "potent"),
 
         controls = {},
 
